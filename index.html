@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ngô Nguyễn Thị Nguyên Nguyên — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand">Nguyên Nguyên</a>
+
+      <nav class="nav-links" aria-label="Điều hướng chính">
+        <a href="#top">Trang chủ</a>
+        <a href="#projects">Dự án</a>
+        <a href="#about">Giới thiệu</a>
+        <a href="#contact">Liên hệ</a>
+      </nav>
+
+      <button id="theme-toggle" class="theme-btn" type="button" aria-label="Chuyển đổi chế độ sáng tối">
+        <span id="theme-icon" aria-hidden="true">🌙</span>
+        <span id="theme-label">Tối</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="avatar-wrap">
+          <img src="avatar.jpg" alt="Ảnh đại diện Ngô Nguyễn Thị Nguyên Nguyên" />
+        </div>
+        <h1>Xin chào! Mình là Ngô Nguyễn Thị Nguyên Nguyên</h1>
+        <p class="hero-sub">
+          Full-stack Developer tương lai | Đam mê thiết kế Web hiện đại
+        </p>
+        <a href="#projects" class="btn btn-primary">Xem 6 dự án của mình</a>
+      </div>
+    </section>
+
+    <!-- KỸ NĂNG & CÔNG NGHỆ -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Kỹ năng &amp; Công nghệ</h2>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <h3>Frontend</h3>
+            <p>HTML5, CSS3 (Grid/Flexbox), JavaScript ES6+, Responsive Design</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Deploy &amp; Cloud</h3>
+            <p>Git, GitHub, Vercel, Netlify, Cloudflare DNS &amp; HTTPS</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Công cụ</h3>
+            <p>VS Code, Adobe Dreamweaver, Formspree API, Chrome DevTools</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS (CSS GRID - 6 DỰ ÁN) -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title reveal">Dự án của mình (6 Dự Án)</h2>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <span class="badge">01</span>
+            <h3>Personal Portfolio</h3>
+            <p>Trang portfolio cá nhân responsive, hỗ trợ dark mode và hiệu ứng cuộn mượt.</p>
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS Grid</span>
+              <span>JS</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="#top">Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <span class="badge">02</span>
+            <h3>Responsive Photo Album</h3>
+            <p>Album ảnh thích ứng nhiều kích thước màn hình với bố cục lưới gọn gàng.</p>
+            <div class="tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Responsive</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <span class="badge">03</span>
+            <h3>Online Quiz Web App</h3>
+            <p>Ứng dụng làm trắc nghiệm trực tuyến có tính điểm và giao diện rõ ràng.</p>
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <span class="badge">04</span>
+            <h3>Data Structures &amp; Sorting</h3>
+            <p>Cài đặt cấu trúc dữ liệu cơ bản và các thuật toán sắp xếp kèm kiểm thử.</p>
+            <div class="tags">
+              <span>C++</span>
+              <span>Java</span>
+              <span>Algorithms</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">Chi tiết</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <span class="badge">05</span>
+            <h3>Database Schema &amp; SQL</h3>
+            <p>Thiết kế lược đồ CSDL quan hệ, ràng buộc toàn vẹn và các câu truy vấn.</p>
+            <div class="tags">
+              <span>SQL Server</span>
+              <span>T-SQL</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">Script</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <span class="badge">06</span>
+            <h3>Network Topology Lab</h3>
+            <p>Mô phỏng hệ thống mạng nhiều lớp, chia subnet IPv4 và định tuyến tĩnh.</p>
+            <div class="tags">
+              <span>Packet Tracer</span>
+              <span>IPv4</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">Sơ đồ</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT FORM (CHỈ HTML + FORMSPREE) -->
+    <section id="contact" class="section">
+      <div class="container contact-wrap">
+        <h2 class="section-title reveal">Liên hệ</h2>
+
+        <form class="contact-form reveal" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="field">
+            <label for="name">Họ và tên</label>
+            <input id="name" name="name" type="text" placeholder="Tên của bạn" required />
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="email@example.com" required />
+          </div>
+
+          <div class="field">
+            <label for="message">Lời nhắn</label>
+            <textarea id="message" name="message" rows="4" placeholder="Nội dung tin nhắn..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full">Gửi liên hệ</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Ngô Nguyễn Thị Nguyên Nguyên. Thiết kế &amp; Triển khai với HTTPS.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
